@@ -12,7 +12,7 @@ To get started, clone the course repository (recursively):
 Then build the Cinder submodule:
 
 ```
-cd AOGP/submodules/cinder_master/xcode
+cd AOGP/cinder_master/xcode
 ./fullbuild.sh 
 ```
 
