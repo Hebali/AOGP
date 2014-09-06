@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3D0C136E-B10E-406E-BAC8-2C0F26A4C4E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ViewportAndMatrix</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2AB7CE55-3034-4364-929D-4575B49B73FD</key>
+		<string>https://github.com/Hebali/AOGP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>examples/week1/ViewportAndMatrix/xcode/ViewportAndMatrix.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2AB7CE55-3034-4364-929D-4575B49B73FD</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Hebali/AOGP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2AB7CE55-3034-4364-929D-4575B49B73FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2AB7CE55-3034-4364-929D-4575B49B73FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AOGP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
