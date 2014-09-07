@@ -34,7 +34,7 @@ void CinderDrawApp::setup()
 	// Enable depth buffer read/write:
 	gl::enableDepthRead();
 	gl::enableDepthWrite();
-	
+		
 	// Setup state handlers:
 	mMinIndex =  0;
 	mMaxIndex = 20;
@@ -68,7 +68,7 @@ void CinderDrawApp::draw()
 	
 	// Set color:
 	gl::color( Color( 1, 0, 0 ) );
-	
+		
 	// Set matrices for 2D:
 	if( mIndex < 12 ) {
 		gl::setMatricesWindow( getWindowSize() );
@@ -160,19 +160,19 @@ void CinderDrawApp::draw()
 		}
 		case 15: {
 			gl::enableWireframe();
-			gl::drawSphere( Vec3f::zero(), 10.0, 25 );
+			gl::drawSphere( Vec3f::zero(), 10.0, 30 );
 			gl::disableWireframe();
 			break;
 		}
 		case 16: {
-			gl::drawSphere( Vec3f::zero(), 10.0, 25 );
+			gl::drawSphere( Vec3f::zero(), 10.0, 30 );
 			break;
 		}
 		case 17: {
 			gl::enableWireframe();
 			gl::pushMatrices();
 			gl::translate( 0.0, -5.0, 0.0 );
-			gl::drawCylinder( 5.0, 5.0, 10.0, 25, 25 );
+			gl::drawCylinder( 5.0, 5.0, 10.0, 30, 30 );
 			gl::popMatrices();
 			gl::disableWireframe();
 			break;
@@ -180,18 +180,18 @@ void CinderDrawApp::draw()
 		case 18: {
 			gl::pushMatrices();
 			gl::translate( 0.0, -5.0, 0.0 );
-			gl::drawCylinder( 5.0, 5.0, 10.0, 25, 25 );
+			gl::drawCylinder( 5.0, 5.0, 10.0, 30, 30 );
 			gl::popMatrices();
 			break;
 		}
 		case 19: {
 			gl::enableWireframe();
-			gl::drawTorus( 10.0, 2.0, 25, 25 );
+			gl::drawTorus( 10.0, 2.0, 30, 30 );
 			gl::disableWireframe();
 			break;
 		}
 		case 20: {
-			gl::drawTorus( 10.0, 2.0, 25, 25 );
+			gl::drawTorus( 10.0, 2.0, 30, 30 );
 			break;
 		}
 		default: { break; }
