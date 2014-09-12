@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>61196500-56B3-498A-AD13-CDCE07FBE214</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GLPoints2d</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F5B8CCA1-2BC1-4DFC-9850-51146CD40697</key>
+		<string>https://github.com/Hebali/AOGP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>examples/week2/GLPoints2d/xcode/GLPoints2d.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F5B8CCA1-2BC1-4DFC-9850-51146CD40697</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Hebali/AOGP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F5B8CCA1-2BC1-4DFC-9850-51146CD40697</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F5B8CCA1-2BC1-4DFC-9850-51146CD40697</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AOGP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
