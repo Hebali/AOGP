@@ -198,7 +198,7 @@ void GLTrianglesApp::draw()
 		size_t tVertCount = mTriangles.size();
 		
 		// Set color:
-		gl::color( Color( 0, 0, 1 ) );
+		gl::color( Color( 1, 0, 0 ) );
 
 		// Begin:
 		glBegin(GL_TRIANGLES);

@@ -104,7 +104,7 @@ void GLDrawArraysApp::draw()
 	else {
 		// Draw points, faster:
 		glEnableClientState( GL_VERTEX_ARRAY );
-		glVertexPointer( 3, GL_FLOAT, 0, &( mPointComponents[0] ) );
+		glVertexPointer( 3, GL_FLOAT, 0, mPointComponents.data() );
 		glDrawArrays( GL_POINTS, 0, tVertCount );
 		glDisableClientState( GL_VERTEX_ARRAY );
 	}

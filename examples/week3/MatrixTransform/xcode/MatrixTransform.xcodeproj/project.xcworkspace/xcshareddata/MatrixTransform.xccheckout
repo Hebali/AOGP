@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>12103473-FF5C-4A1C-80AA-EE92EBCCEB2A</string>
+	<string>5D312F05-6423-428D-8B19-CEBF0FDD808E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>GLPoints3d</string>
+	<string>MatrixTransform</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E38DC0C4DBD9C4C5082E684C9755504E8502F5A6</key>
 		<string>https://github.com/Hebali/AOGP.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>examples/week2/GLPoints3d/xcode/GLPoints3d.xcodeproj/project.xcworkspace</string>
+	<string>examples/week3/MatrixTransform/xcode/MatrixTransform.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E38DC0C4DBD9C4C5082E684C9755504E8502F5A6</key>
