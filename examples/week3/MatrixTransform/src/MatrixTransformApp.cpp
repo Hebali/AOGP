@@ -108,9 +108,9 @@ void MatrixTransformApp::draw()
 	gl::drawCoordinateFrame();
 	
 	// Prepare matrix transformation settings:
-	Vec3f tCubeDimension   = Vec3f( 2.0, 2.0, 2.0 );
+	Vec3f tCubeDimension   = Vec3f( 1.0, 2.0, 2.0 );
 	Vec3f tCubeTranslation = Vec3f( 1.5, 0.0, 0.0 );
-	Vec3f tCubeScale       = Vec3f( 0.2, 0.5, 0.5 );
+	Vec3f tCubeScale       = Vec3f( 0.5, 0.5, 0.5 );
 	Vec3f tCubeRotation    = Vec3f( getElapsedSeconds() * 45.0, 0.0, 0.0 );
 	
 	// Draw 3D geometry (that HAS been pre-centered about the origin):
