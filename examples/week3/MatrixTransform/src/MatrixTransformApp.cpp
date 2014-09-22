@@ -168,7 +168,7 @@ void MatrixTransformApp::draw()
 		}
 		
 		if( mIndex > 3 ) {
-			// Center cube about its origin:
+			// Apply anchor translation:
 			gl::translate( - tCubeDimension * 0.5 );
 		}
 		

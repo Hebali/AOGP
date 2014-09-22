@@ -75,11 +75,13 @@ void MatrixTransformNestedApp::draw()
 	Vec3f tOuterCubeTranslation = Vec3f( 1.5, 0.0, 0.0 );
 	Vec3f tOuterCubeScale       = Vec3f( 0.5, 0.5, 0.5 );
 	Vec3f tOuterCubeRotation    = Vec3f( getElapsedSeconds() * 90.0, 0.0, 0.0 );
+	Vec3f tOuterCubeAnchor	    = Vec3f( 0.0, 0.0, 0.0 );
 	
 	Vec3f tInnerCubeDimension   = Vec3f( 3.0, 3.0, 3.0 );
-	Vec3f tInnerCubeTranslation = Vec3f( 0.0, 3.0, 0.0 );
+	Vec3f tInnerCubeTranslation = Vec3f( 0.0, 0.0, 0.0 );
 	Vec3f tInnerCubeScale       = Vec3f( 0.25, 0.25, 0.25 );
 	Vec3f tInnerCubeRotation    = Vec3f( getElapsedSeconds() * 180.0, 0.0, 0.0 );
+	Vec3f tInnerCubeAnchor	    = Vec3f( 0.0, 7.0, 0.0 );
 	
 	// Draw 3D geometry (that HAS been pre-centered about the origin):
 	{
@@ -97,6 +99,9 @@ void MatrixTransformNestedApp::draw()
 		
 		// Apply scaling:
 		gl::scale( tOuterCubeScale );
+		
+		// Apply anchor translation:
+		gl::translate( tOuterCubeAnchor );
 		
 		// Draw cube:
 		gl::drawStrokedCube( Vec3f::zero(), tOuterCubeDimension );
@@ -116,6 +121,9 @@ void MatrixTransformNestedApp::draw()
 			
 			// Apply scaling:
 			gl::scale( tInnerCubeScale );
+			
+			// Apply anchor translation:
+			gl::translate( tInnerCubeAnchor );
 			
 			// Draw cube:
 			gl::drawStrokedCube( Vec3f::zero(), tInnerCubeDimension );
